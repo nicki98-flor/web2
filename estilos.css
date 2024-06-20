@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: #f26ff7;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+}
+h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #ff6565;
+}
+.cabeza{
+    background-color: rgb(177, 123, 57);
+    width: 260px;
+    height: 200px;
+    border-radius: 30px 30px 0px 0px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+.pantalones{
+    background-color: rgb(177, 123, 57);
+    width: 140%;
+    height: 40px;
+    border-radius: 30px 30px 0px 0px;
+    border: 1px solid black;
+}
+.ante-frente{
+    width: 110%;
+    background-color: rgb(177, 123, 57);
+    height: 30px;
+    border: 3px solid black;
+}
+.post-frente{
+    width: 100%;
+    height: 10px;
+    border: 3px solid black;
+}
+.rostro{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    border-radius: 30px 30px 0px 0px;
+    
+
+}
+.nariz{
+    width: 30px;
+    height: 100%;
+    border: 1px solid black;
+}
+.ojo{
+    width: 50px;
+    height: 30px;
+    border: 1px solid black;
+}
+.monolito{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.brazos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: start;
+    
+}
+.brazo{
+    border-right: 1px solid black;
+    border-left:1px solid black ;
+   ;
+    width: 20%;
+    height: 60%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.manoA{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+    width: 100px;
+    border-top: 1px solid black ;
+    border-bottom:1px solid black ; 
+    border-right:1px solid black ;
+    z-index: 2;
+    background-color:rgb(177, 123, 57);
+    height: 80px;
+    position: relative;
+   
+    top: 30px;
+    left: 74px;
+}
+.manoB{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    width: 100px;
+    border-top: 1px solid black ;
+    border-bottom:1px solid black ; 
+    border-left:1px solid black ;
+    z-index: 2;
+    background-color:rgb(177, 123, 57);
+    height: 80px;
+    position: relative;
+   
+    top: 30px;
+    right: 74px;
+}
+.boca{
+    margin-top: 30px;
+    width: 20%;
+    height: 20px;
+    border: 1px solid black;
+}
+.torzo{
+
+    background-color: rgb(177, 123, 57);
+    width: 140%;
+    display: flex;
+    justify-content:space-between;
+    align-items: start;
+    
+    height: 300px;
+    border: 3px solid black;
+}
+.cintura{
+    background-color: rgb(177, 123, 57);
+    width: 150%;
+    height: 30px;
+    border: 3px solid black;
+}
+.piernas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    width: 130%;
+    
+}
+.pierna{
+    background-color: rgb(177, 123, 57);
+    width: 47%;
+    height: 300px;
+    border: 3px solid black;
+    display: flex;
+    align-items: end;
+}
+.pies{
+    height: 70px;
+    width: 130%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.dedos{
+    width: 30%;
+    border: 1px solid black;
+    height: 50%;
+}
+.inferior{
+    width: 100%;
+    display: flex;
+    gap:10px;
+}
+.nombre span {
+    padding: 0 5px;
+}
+
+.letra1 { color: #FF5733; }
+.letra2 { color: #33FF57; }
+.letra3 { color: #3357FF; }
+.letra4 { color: #FF33A8; }
+.letra5 { color: #33FFA5; }
+.letra6 { color: #A833FF; }
+.letra7 { color: #FF5733; }
+.letra8 { color: #33FF57; }
+.letra9 { color: #3357FF; }
+.letra10 { color: #FF33A8; }
+.letra11 { color: #33FFA5; }
+.letra12 { color: #A833FF; }
+.letra13 { color: #FF5733; }
+.letra14 { color: #33FF57; }
+.letra15 { color: #3357FF; }
+.letra16 { color: #FF33A8; }
+.letra17 { color: #33FFA5; }
+.letra18 { color: #A833FF; }
+.letra19 { color: #FF5733; }
+.letra20 { color: #33FF57; }
+.letra21 { color: #3357FF; }
+.letra22 { color: #FF33A8; }
+.letra23 { color: #33FFA5; }
+.letra24 { color: #A833FF; }
+.letra25 { color: #FF5733; }
